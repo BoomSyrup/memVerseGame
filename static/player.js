@@ -69,4 +69,5 @@
         finishHeader.text("Big oof :'( You got it nex time! 加油!")
       }
       $("#jumboContainer").append(finishHeader)
+      firstUpdate = false
     });
