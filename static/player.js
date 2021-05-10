@@ -41,7 +41,7 @@
     });
 
     function displayVocab(vocabList) {
-      var row = $('<div></div>', {class: 'row fixed-bottom', id:'rowKeyboard'})
+      var row = $('<div></div>', {class: 'row fixed-top'})
       var col1 = $('<div></div>', {class: 'col'})
       var col2 = $('<div></div>', {class: 'col'})
       col1.append($("#loc"))
